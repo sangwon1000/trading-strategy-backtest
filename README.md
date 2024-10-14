@@ -1,10 +1,11 @@
+## Description
 This is my old project for backtesting trend following strategy and mean reversion strategy for trading crypto pairs. 
 
 Trend following strategy used is simplified version of turtle breakout strategy without pyramiding.
 
 Mean reversion strategy used is Daily Weekly Variance Differential strategy introduced by David Kim, aka Quant Daddy. 
 
-Workflow
+## Workflow
 
 Telegram for notification
 
