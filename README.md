@@ -1,19 +1,18 @@
 ## Description
-This is my old project for backtesting trend following strategy and mean reversion strategy for trading crypto pairs. 
+This is my old project for backtesting trading strategies and visualizing backtest analytics for crypto pairs.
 
-Trend following strategy used is simplified version of turtle breakout strategy without pyramiding.
+There are two strategies used in this project;
 
-Mean reversion strategy used is Daily Weekly Variance Differential strategy introduced by David Kim, aka Quant Daddy. 
+Trend following strategy - simplified version of The Turtle Trading breakout strategy without pyramiding.
+
+Mean reversion strategy - Daily Weekly Variance Differential Strategy introduced by David Kim, aka Quant Daddy.
 
 ## Workflow
 
-Telegram for notification
-
-Grafana, Plotly for visualization
-
-Sqlite for stroing price data
-
-Supabase for cloud stroage for grafrana
+- data_engine/main.py gets spot tickers available for trading on OKX exchange and updates price data in local Sqlite database
+- backtest/main.py runs the backtest and outputs trade statistics (backtest/stats.py)
+- backtest/main.py notifies completion or failure of the code to my Telegram account, and updates Supabase cloud SQL storage
+- Plotly is used for visualization of trade statistics locally, Grafana for visualization on cloud.
 
 ## References:
 
