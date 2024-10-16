@@ -1,11 +1,8 @@
 ## Description
-This is my old project for backtesting trading strategies and visualizing backtest analytics for crypto pairs.
 
-There are two strategies used in this project;
-
-Trend following strategy - simplified version of The Turtle Trading breakout strategy without pyramiding.
-
-Mean reversion strategy - Daily Weekly Variance Differential Strategy introduced by David Kim, aka Quant Daddy.
+This is my old project for backtesting trading strategies and visualizing backtest analytics for crypto pairs. There are two strategies used in this project;
+- Trend following strategy - simplified version of The Turtle Trading breakout strategy without pyramiding.
+- Mean reversion strategy - Daily Weekly Variance Differential Strategy introduced by David Kim, aka Quant Daddy.
 
 ## Workflow
 
